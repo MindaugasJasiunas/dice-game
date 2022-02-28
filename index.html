@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Dice game</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container-1">
+        <button class="btn btn-new-game">New Game</button>
+      </div>
+      <div class="container-2">
+        <div class="flexbox-item flexbox-item-1">
+          <h2>Player 1</h2>
+          <h6>score</h6>
+          <p class="score" id="player-score-0">0</p>
+          <h6>current score</h6>
+          <p class="score" id="player-current-score-0">0</p>
+        </div>
+        <div class="flexbox-item flexbox-item-2">
+          <img src="../dice/img/dice-1.png" class="dice" />
+        </div>
+        <div class="flexbox-item flexbox-item-3">
+          <h2>Player 2</h2>
+          <h6>score</h6>
+          <p class="score" id="player-score-1">0</p>
+          <h6>current score</h6>
+          <p class="score" id="player-current-score-1">0</p>
+        </div>
+      </div>
+      <div class="container-3">
+        <button class="btn btn-roll">Roll a dice</button>
+        <button class="btn btn-hold">Hold</button>
+      </div>
+    </div>
+
+    <!-- Modal if won -->
+    <div id="modal" class="modal hidden">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="modal-content-paragraph">Player X is the WINNER! 💰</p>
+      </div>
+    </div>
+  </body>
+</html>
