@@ -1,3 +1,5 @@
+'use strict';
+
 const diceImg = document.querySelector('.dice');
 const newGameBtn = document.querySelector('.btn-new-game');
 const rollADiceBtn = document.querySelector('.btn-roll');

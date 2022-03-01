@@ -2,6 +2,10 @@
 
 Dice game written in vanilla Javascript.
 
+## Game UI
+
+![Game page UI](https://raw.githubusercontent.com/MindaugasJasiunas/dice-game/main/app-UI.png)
+
 ## Flowchart
 
 ![Flowchart diagram](https://raw.githubusercontent.com/MindaugasJasiunas/dice-game/main/flowchart.png)
