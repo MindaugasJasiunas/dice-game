@@ -50,6 +50,7 @@ html {
   flex-grow: 0;
   border: solid 10px;
   border-radius: 40px;
+  align-self: center;
 }
 .flexbox-item-3 {
   flex-grow: 1;
