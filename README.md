@@ -1,6 +1,6 @@
 # Dice game
 
-Dice game written in vanilla Javascript.
+Dice game written using vanilla Javascript(ES5) and Flexbox for UI.
 
 ## Game UI
 
